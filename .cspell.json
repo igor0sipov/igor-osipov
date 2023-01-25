@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": ["typescript", "node", "html", "css", "npm"],
+  "words": [
+    "githubusercontent",
+    "mkdirp",
+    "Osipov",
+    "streetsidesoftware",
+    "tailwindcss",
+    "tsmerge",
+    "Typecheck",
+    "visualstudio",
+    "vsmarketplacebadge"
+  ],
+  "ignorePaths": ["node_modules/**"]
+}
