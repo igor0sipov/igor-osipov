@@ -1,15 +1,15 @@
 import type { Locale } from "@/i18-config";
+import en from "@/public/locales/en/common.json";
+import ru from "@/public/locales/ru/common.json";
 import "server-only";
 
 const dictionaries = {
-  en: () =>
-    import("@/public/locales/en/common.json").then((module) => module.default),
-  ru: () =>
-    import("@/public/locales/ru/common.json").then((module) => module.default),
+  en,
+  ru,
 };
 
 export const getDictionary = async (locale: Locale) => {
-  const dictionary = await dictionaries[locale]();
+  const dictionary = await dictionaries[locale];
 
   return { translate: (key: keyof typeof dictionary) => dictionary[key] };
 };
