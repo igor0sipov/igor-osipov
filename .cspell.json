@@ -3,7 +3,10 @@
   "language": "en",
   "dictionaries": ["typescript", "node", "html", "css", "npm"],
   "words": [
+    "clsx",
+    "formatjs",
     "githubusercontent",
+    "localematcher",
     "mkdirp",
     "Osipov",
     "streetsidesoftware",
@@ -13,5 +16,5 @@
     "visualstudio",
     "vsmarketplacebadge"
   ],
-  "ignorePaths": ["node_modules/**"]
+  "ignorePaths": ["node_modules/**", "public/locales/ru/**"]
 }
