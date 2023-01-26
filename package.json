@@ -9,7 +9,8 @@
     "lint": "next lint",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "spellcheck": "cspell ./**/*.{ts,js,tsx,json} -e public/locales/ru -e package-lock.json -e node_modules -e .next"
+    "spellcheck": "cspell ./**/*.{ts,js,tsx,json} -e public/locales/ru -e package-lock.json -e node_modules -e .next",
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.2.32",
